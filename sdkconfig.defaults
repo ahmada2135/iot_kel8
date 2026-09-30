@@ -1,0 +1,8 @@
+# Perbesar stack main task agar cukup untuk Wi-Fi + MQTT
+CONFIG_ESP_MAIN_TASK_STACK_SIZE=32768
+
+# Perbesar stack FreeRTOS idle task
+CONFIG_FREERTOS_IDLE_TASK_STACKSIZE=4096
+
+# Perbesar stack pthread (untuk std::thread::spawn / MQTT event thread)
+CONFIG_PTHREAD_TASK_STACK_SIZE_DEFAULT=16384
