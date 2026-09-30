@@ -1,5 +1,9 @@
 # Smart Coffee Processing: IoT-Based Electronic Nose ☕👃
 
+**Kelompok 8**
+- Khusnul Khuluq Ahmada (2042241001)
+- Galen Zahid Wajendra (2042241044)
+
 Repositori ini berisi *firmware* untuk sistem **Electronic Nose (E-Nose)** berbasis ESP32-S3 yang ditulis menggunakan **embedded Rust**. Proyek ini merupakan bagian dari *Case-Based Project* Mata Kuliah Teknologi IoT.
 
 Sistem ini bertugas untuk membaca data dari deretan sensor gas (MOS) dan sensor lingkungan, lalu mengirimkan data tersebut ke ThingsBoard Cloud melalui protokol MQTT untuk keperluan klasifikasi profil aroma kopi (sebelum diolah lebih lanjut dengan TinyML).
